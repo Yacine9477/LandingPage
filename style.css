@@ -75,6 +75,65 @@ i {
     rotate: -150deg;
 }
 
+.rectangle5 {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: #588FFF;
+    top: 1140px;
+    left: 1320px;
+    border-radius: 3px;
+    rotate: 163deg;
+}
+
+.rectangle6 {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: #825EEE;
+    top: 1435px;
+    left: 755px;
+    border-radius: 3px;
+    rotate: 58deg;
+}
+
+.rectangle7 {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: #FF761B;
+    top: 1765px;
+    left: 980px;
+    border-radius: 3px;
+    rotate: 103deg;
+}
+
+.rectangle8 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #282A5B;
+    top: 1490px;
+    left: 1465px;
+    border-radius: 3px;
+    rotate: 133deg;
+}
+
+.rectangle8 {
+    position: absolute;
+    width: 29px;
+    height: 29px;
+    background: #B8FBFD;
+    top: 1835px;
+    left: 155px;
+    border-radius: 3px;
+    rotate: 48deg;
+}
+
+
+
+
+
 .cercle {
     width: 87px;
     height: 87px;
@@ -352,7 +411,7 @@ header li a {
 
 .testimonials-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around;    
 }
 
 .testimonials-container-rectangle {
@@ -369,6 +428,7 @@ header li a {
     line-height: 26px;
     color: #C9C9C9;
 }
+
 
 .testimonials-rectangle-profil {
     display: flex;
