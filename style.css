@@ -124,13 +124,67 @@ i {
     width: 29px;
     height: 29px;
     background: #B8FBFD;
-    top: 1835px;
+    top: 1885px;
     left: 155px;
     border-radius: 3px;
     rotate: 48deg;
 }
 
+.rectangle9 {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: #873600;
+    top: 1850px;
+    left: 565px;
+    border-radius: 3px;
+    rotate: 103deg;
+}
 
+.rectangle10 {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: #F08064;
+    top: 2230px;
+    left: 645px;
+    border-radius: 3px;
+    rotate: 103deg;
+}
+
+.rectangle11 {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: #7047EB;
+    top: 3765px;
+    left: 1340px;
+    border-radius: 3px;
+    rotate: -174deg;
+}
+
+.rectangle12 {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: #FF6701;
+    top: 3930px;
+    left: 840px;
+    border-radius: 3px;
+    rotate: -129deg;
+}
+
+.rectangle13 {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background: #9ECBFF;
+    top: 4055px;
+    left: 930px;
+    border-radius: 14px;
+    opacity: 0.19;
+    z-index: -1;
+}
 
 
 
@@ -154,6 +208,26 @@ i {
     left: 650px;
     opacity: 0.21;
     border-radius: 50%;
+}
+
+.customersProfil {
+    position: absolute;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    top: 1950px;
+    left: 580px;
+}
+
+.photo {
+    display: flex;
+    gap: 5px;
+    color: #FF865E;
+}
+
+.photo img {
+    max-width: 122px;
+    max-height: 37px;
 }
 
 /* Header */
@@ -330,7 +404,7 @@ header li a {
     grid-template-rows: 287px 287px;
     column-gap: 24px;
     justify-content: center;
-    margin-bottom: 5rem;
+    margin-bottom: 8rem;
 }
 
 /* customers */
@@ -524,3 +598,17 @@ footer img {
 .footer-text-contact-number {
     gap: 1rem;
 }
+
+.cercle3 {
+
+    width: 248px;
+    height: 248px;
+    background: linear-gradient(to right, #0D0D0D 50%, #F53D6B 50%);
+    position: absolute;
+    top: 3810px;
+    left: 1065px;
+    opacity: 0.21;
+    border-radius: 50%;
+    z-index: -1;
+}
+
